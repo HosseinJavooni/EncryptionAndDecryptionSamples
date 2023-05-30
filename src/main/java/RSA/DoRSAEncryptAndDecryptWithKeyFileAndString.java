@@ -53,6 +53,7 @@ public class DoRSAEncryptAndDecryptWithKeyFileAndString {
             File privateKeyFile = new File("src/main/resources/publicKey.anyExtention");
             String key = new String(Files.readAllBytes(privateKeyFile.toPath()), Charset.defaultCharset());
 
+            // We can give public key as a String here also
             String publicKeyPEM = key
                     .replace("-----BEGIN PUBLIC KEY-----", "")
                     .replaceAll(System.lineSeparator(), "")

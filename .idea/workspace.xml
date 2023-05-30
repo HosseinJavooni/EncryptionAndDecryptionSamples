@@ -4,18 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2095cbf-fb4b-49ac-ace9-22325cf9343c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RSA/DoRSAEncryptAndDecryptWithKeyFileAndString.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/RSA/RSAMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/privateKey.anyExtention" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/publicKey.anyExtention" afterDir="false" />
-    </list>
+    <list default="true" id="f2095cbf-fb4b-49ac-ace9-22325cf9343c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -53,11 +42,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/h.javooni@FARABOOM.CO/IdeaProjects/EncryptAndDecryptSamples/src/main/resources",
+    "last_opened_file_path": "/home/h.javooni@FARABOOM.CO/IdeaProjects/EncryptionAndDecryptionSamples",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -108,6 +98,7 @@
       <option name="presentableId" value="Default" />
       <updated>1685457983707</updated>
       <workItem from="1685457984799" duration="2212000" />
+      <workItem from="1685460301720" duration="425000" />
     </task>
     <servers />
   </component>
