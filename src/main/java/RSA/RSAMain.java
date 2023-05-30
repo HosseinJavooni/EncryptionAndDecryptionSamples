@@ -12,8 +12,8 @@ public class RSAMain {
         String encryptedText = rsaEncryptionJava.encryptMessage(plainText, privateKey);
         String descryptedText = rsaEncryptionJava.decryptMessage(encryptedText, publicKey);
 
-        System.out.println("input:" + plainText);
-        System.out.println("encrypted:" + encryptedText);
-        System.out.println("decrypted:" + descryptedText);
+        System.out.println("input:\n" + plainText);
+        System.out.println("encrypted:\n" + encryptedText);
+        System.out.println("decrypted:\n" + descryptedText);
     }
 }
