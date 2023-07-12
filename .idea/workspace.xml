@@ -5,7 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f2095cbf-fb4b-49ac-ace9-22325cf9343c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/RSA/RSA_points_and_resources/links.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AES/AES256.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/AES/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JWT_generator_for_request_sign/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/JWT_generator_for_request_sign/JwtGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/RSA/RSA_points_and_resources/links.txt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/RSA/RSA_points_and_resources/links.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +50,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/home/h.javooni@FARABOOM.CO/IdeaProjects/EncryptionAndDecryptionSamples",
+    "last_opened_file_path": "/media/SSD/JavaProject/EncryptionAndDecryptionSamples/src/main/java",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -55,10 +61,37 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.RSAMain">
+    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JWT_generator_for_request_sign.App" />
+      <module name="EncryptionAndDecryptionSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JWT_generator_for_request_sign.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="AES.Main" />
+      <module name="EncryptionAndDecryptionSamples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="AES.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="RSAMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RSA.RSAMain" />
       <module name="EncryptionAndDecryptionSamples" />
@@ -88,6 +121,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.RSAMain" />
+        <item itemvalue="Application.App" />
+        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -101,10 +136,32 @@
       <updated>1685457983707</updated>
       <workItem from="1685457984799" duration="2212000" />
       <workItem from="1685460301720" duration="913000" />
+      <workItem from="1689149027956" duration="1940000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JWT_generator_for_request_sign/JwtGenerator.java</url>
+          <line>53</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JWT_generator_for_request_sign/JwtGenerator.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JWT_generator_for_request_sign/JwtGenerator.java</url>
+          <line>30</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

@@ -4,7 +4,7 @@ https://phpseclib.com/docs/rsa-keys
 RSA_java_development_sample:
 1- https://java2blog.com/rsa-encryption-and-decryption-java/
 2- https://www.baeldung.com/java-rsa
-3- https://www.quickprogrammingtips.com/java/java-asymmetric-encryption-decryption-example-with-rsa.html
+3- https://www.quickprogrammingtips.com/java/java-asymmetric-encryption-decryption-AES-with-rsa.html
 4_1- https://gustavopeiretti.com/rsa-encrypt-decrypt-java/
 4_2- https://gustavopeiretti.com/rsa-keys-java/
-5- http://www.java2s.com/example/java/security/gen-rsa-key-pair-and-save-to-file.html
+5- http://www.java2s.com/AES/java/security/gen-rsa-key-pair-and-save-to-file.html
