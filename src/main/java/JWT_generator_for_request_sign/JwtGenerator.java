@@ -17,16 +17,6 @@ import java.security.spec.X509EncodedKeySpec;
 import java.util.Map;
 
 public class JwtGenerator {
-    
-    private KeyPairGenerator keyPairGenerator;
-    private KeyPair keyPair;
-
-//    public JwtGenerator() throws NoSuchAlgorithmException {
-//        keyPairGenerator = KeyPairGenerator.getInstance("RSA");
-//        keyPairGenerator.initialize(2048);
-//        keyPair = keyPairGenerator.generateKeyPair();
-//    }
-
     public String generateJwt(Map<String, String> payload) throws Exception {
         Builder tokenBuilder = JWT.create();
         payload.forEach((key, value) -> tokenBuilder.withClaim(key, value));
@@ -38,9 +28,9 @@ public class JwtGenerator {
         String key = new String(Files.readAllBytes(privateKeyFile.toPath()), Charset.defaultCharset());
         // We can give private key as a String here also
         String privateKeyPEM = key
-                .replace("-----BEGIN PRIVATE KEY-----", "")
+                .replace("-----BEGIN RSA PRIVATE KEY-----", "")
                 .replaceAll(System.lineSeparator(), "")
-                .replace("-----END PRIVATE KEY-----", "");
+                .replace("-----END RSA PRIVATE KEY-----", "");
         System.out.println("=====================================================");
         System.out.println("Private key is: \n" + privateKeyPEM);
         System.out.println("=====================================================");

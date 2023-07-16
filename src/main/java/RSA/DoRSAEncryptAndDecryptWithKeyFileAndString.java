@@ -34,9 +34,9 @@ public class DoRSAEncryptAndDecryptWithKeyFileAndString {
 
             // We can give private key as a String here also
             String privateKeyPEM = key
-                    .replace("-----BEGIN PRIVATE KEY-----", "")
+                    .replace("-----BEGIN RSA PRIVATE KEY-----", "")
                     .replaceAll(System.lineSeparator(), "")
-                    .replace("-----END PRIVATE KEY-----", "");
+                    .replace("-----END RSA PRIVATE KEY-----", "");
 
             System.out.println("=====================================================");
             System.out.println("Private key is: \n" + privateKeyPEM);
