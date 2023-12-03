@@ -31,38 +31,32 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="workspaceImportEnabled" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
   <component name="ProjectId" id="2QW8TE0sr6QLrQuBmStEp8b3rZf" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/media/SSD/JavaProject/EncryptionAndDecryptionSamples/src/main/java&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "/media/HDD1/JavaProjects/EncryptionAndDecryptionSamples/src/main/resources",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/java" />
       <recent name="$PROJECT_DIR$/src/main/resources" />
+      <recent name="$PROJECT_DIR$/src/main/java" />
     </key>
   </component>
   <component name="RunManager" selected="Application.RSAMain">
@@ -121,9 +115,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Application.RSAMain" />
+        <item itemvalue="Application.App" />
         <item itemvalue="Application.MainOfKeyPairGenerator" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.App" />
       </list>
     </recent_temporary>
   </component>
@@ -140,6 +134,14 @@
       <workItem from="1689149027956" duration="2209000" />
       <workItem from="1689504964692" duration="3576000" />
       <workItem from="1689508617681" duration="3303000" />
+      <workItem from="1695020527879" duration="14779000" />
+      <workItem from="1695629880710" duration="746000" />
+      <workItem from="1700035153873" duration="618000" />
+      <workItem from="1700286098099" duration="6000" />
+      <workItem from="1700286319310" duration="2964000" />
+      <workItem from="1700556070583" duration="2669000" />
+      <workItem from="1700648080204" duration="1470000" />
+      <workItem from="1701612487056" duration="2562000" />
     </task>
     <servers />
   </component>
@@ -160,9 +162,9 @@
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/JWT_generator_for_request_sign/JwtGenerator.java</url>
-          <line>20</line>
-          <option name="timeStamp" value="3" />
+          <url>file://$PROJECT_DIR$/src/main/java/JWT_generator_for_request_sign/App.java</url>
+          <line>23</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
