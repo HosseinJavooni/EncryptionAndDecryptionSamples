@@ -16,7 +16,7 @@ public class KeyPairGeneratory {
         keyPairGenerator.initialize(2048);
         keyPair = keyPairGenerator.generateKeyPair();
         String privateOutFile = "src/main/resources/privateKey";
-        FileWriter fileOutputStream = new FileWriter(privateOutFile + ".anyExtention");
+        FileWriter fileOutputStream = new FileWriter(privateOutFile + ".pem");
         java.util.Base64.Encoder encoder = java.util.Base64.getEncoder();
         String privateKeyInString = encoder.encodeToString(keyPair.getPrivate().getEncoded());
         System.out.println("private key: \n" + privateKeyInString);
@@ -29,7 +29,7 @@ public class KeyPairGeneratory {
         String publicKeyInString = encoder.encodeToString(keyPair.getPublic().getEncoded());
         System.out.println("public key: : \n" + publicKeyInString);
         String publicOutFile = "src/main/resources/publicKey";
-        FileWriter fileOutputStream1 = new FileWriter(publicOutFile + ".anyExtention");
+        FileWriter fileOutputStream1 = new FileWriter(publicOutFile + ".pem");
         fileOutputStream1.write(
                 "-----BEGIN PUBLIC KEY-----\n" +
                 injectEnterCharacterToString(publicKeyInString,70) + "\n" +

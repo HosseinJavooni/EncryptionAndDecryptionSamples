@@ -29,7 +29,7 @@ public class DoRSAEncryptAndDecryptWithKeyFileAndString {
         }
 
         public PrivateKey readPrivateKeyFromFile() throws Exception {
-            File privateKeyFile = new File("src/main/resources/privateKey.anyExtention");
+            File privateKeyFile = new File("src/main/resources/privateKey.pem");
             String key = new String(Files.readAllBytes(privateKeyFile.toPath()), Charset.defaultCharset());
 
             // We can give private key as a String here also
@@ -50,7 +50,7 @@ public class DoRSAEncryptAndDecryptWithKeyFileAndString {
         }
 
         public PublicKey readPublicKeyFromFile() throws Exception {
-            File privateKeyFile = new File("src/main/resources/publicKey.anyExtention");
+            File privateKeyFile = new File("src/main/resources/publicKey.pem");
             String key = new String(Files.readAllBytes(privateKeyFile.toPath()), Charset.defaultCharset());
 
             // We can give public key as a String here also
